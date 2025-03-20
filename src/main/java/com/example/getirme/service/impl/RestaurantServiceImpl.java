@@ -31,16 +31,12 @@ import static com.example.getirme.exception.MessageType.*;
 @Service
 public class RestaurantServiceImpl implements IRestaurantService {
 
-    @Autowired
     private RestaurantRepository restaurantRepository;
 
-    @Autowired
     private IFileEntityService fileEntityService;
 
-    @Autowired
     private BCryptPasswordEncoder passwordEncoder;
 
-    @Autowired
     private SelectableContentOptionRepository selectableContentOptionRepository;
 
     @Autowired
